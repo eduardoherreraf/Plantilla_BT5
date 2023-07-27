@@ -2,7 +2,7 @@
 
 Plantilla para Bootstrap 5 con pre-procesador SASS y con la herramienta compilación y minificado Vite.
 
-## Comenzando 🚀
+## Comenzando
 
 Descargar el repo con:
 
