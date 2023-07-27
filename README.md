@@ -1,6 +1,6 @@
 # Plantilla Bootstrap
 
-Plantilla para Bootstrap 5 con preprocesador SASS y con la herramienta compilación y minificado Vite.
+Plantilla para Bootstrap 5 con pre-procesador SASS y con la herramienta compilación y minificado Vite.
 
 ## Comenzando 🚀
 
@@ -18,7 +18,7 @@ Corregir las direcciones de llamado a los archivos css y js insertando un punto 
 - ```<script type="module" crossorigin src="./assets/index-e9ba998b.js"></script>``` y
 - ```<link rel="stylesheet" href="./assets/index-1b619488.css">```
 
-Para evitar que el formateador de código cambie el formato del código de una sola línea al HTML clásico se debe en VSC desmarcar la opción Format On Save.
+Para evitar que el formateador de código cambie el formato de una sola línea al HTML clásico se debe en VSC desmarcar la opción Format On Save.
 
 **En este momento ya se puede usar esta plantilla para hacer una página web con Bootstrap + SASS + Vite**
 
