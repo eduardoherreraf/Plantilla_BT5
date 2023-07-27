@@ -199,6 +199,7 @@ Asi debe quedar este archivo:
 ## Ejecución del proyecto
 
 Iniciar la ejecución del proyecto ```npm start```.
+
 Compilar el proyecto para obtener los archivos para producción ```npm run build```.
 
 ## Detalles Finales
