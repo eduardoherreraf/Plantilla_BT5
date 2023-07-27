@@ -6,8 +6,8 @@ Plantilla para Bootstrap 5 con pre-procesador SASS y con la herramienta compilac
 
 Descargar el repo con:
 
-- git clone ```<https://github.com/eduardoherreraf/Plantilla_BT5.git>``` (https) o,
-- git clone ```<git@github.com>:eduardoherreraf/Plantilla_BT5.git``` (ssh)
+- ```git clone <https://github.com/eduardoherreraf/Plantilla_BT5.git>``` (https) o,
+- ```git clone <git@github.com>:eduardoherreraf/Plantilla_BT5.git``` (ssh)
 
 Instalar el proyecto: ```npm install```.
 
