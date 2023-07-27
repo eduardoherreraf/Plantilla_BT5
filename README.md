@@ -106,14 +106,14 @@ Iniciar el proyecto con vite: ```npm start```
 
 #### Importar SASS
 
-En el archivo ```src/scss/styles.scss``` llenar con
+En el archivo ```src/scss/styles.scss``` se importa los estilos CSS:
 
 ```javascript
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
 ```
 
-Next we load the CSS and import Bootstrap’s JavaScript. Add the following to src/js/main.js
+El archivo ```src/js/main.js``` se carga e importa los CSS y JS de Bootstrap agregando.
 
 ```javascript
 // Import our custom CSS
@@ -126,7 +126,7 @@ import * as bootstrap from 'bootstrap'
 ## Instalación plugin PurgeCSS
 
 ```npm i vite-plugin-purgecss```
-,este plugin elimina toda clase de CSS que no sea utilizada.
+, este plugin elimina toda clase de CSS que no sea utilizada.
 
 ## Instalación plugin HTML
 
