@@ -16,6 +16,8 @@ Corregir las direcciones de llamado a los archivos css y js insertando un punto 
 - ```<script type="module" crossorigin src="./assets/index-e9ba998b.js"></script>``` y
 - ```<link rel="stylesheet" href="./assets/index-1b619488.css">```
 
+Para evitar que el formateador de código cambie el formato del código de una sola línea al HTML clásico se debe en VSC desmarcar la opción Format On Save
+
 ### Pre-requisitos 📋
 
 - Tener instalado NodeJS
