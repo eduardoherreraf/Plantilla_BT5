@@ -135,7 +135,7 @@ import * as bootstrap from 'bootstrap'
 ```npm i vite-plugin-HTML```
 , este plugin elimina toda espacio extra o cambio de línea del documento HTML y deja todo el código en una sola línea.
 
-### Congiguración archivo vite.cfg.js
+### Configuración archivo vite.cfg.js
 
 Este archivo se debe configurar asi:
 
