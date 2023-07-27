@@ -22,6 +22,8 @@ Para evitar que el formateador de código cambie el formato de una sola línea a
 
 **En este momento ya se puede usar esta plantilla para hacer una página web con Bootstrap + SASS + Vite**
 
+Para iniciar la ejecución del proyecto, mostrar la página web en el navegador: ```npm start```.
+
 ### Pre-requisitos 📋
 
 - Tener instalado NodeJS
