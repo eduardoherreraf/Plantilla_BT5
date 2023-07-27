@@ -1,4 +1,4 @@
-# plantilla Bootstrap
+# Plantilla Bootstrap
 
 Plantilla para Bootstrap 5 con preprocesador SASS y con la herramienta compilación y minificado Vite.
 
@@ -6,8 +6,8 @@ Plantilla para Bootstrap 5 con preprocesador SASS y con la herramienta compilaci
 
 Descargar el repo con:
 
-- git clone <https://github.com/eduardoherreraf/Plantilla_BT5.git> (https) o
-- git clone <git@github.com>:eduardoherreraf/Plantilla_BT5.git(ssh)
+- git clone ```<https://github.com/eduardoherreraf/Plantilla_BT5.git>``` (https) o
+- git clone ```<git@github.com>:eduardoherreraf/Plantilla_BT5.git``` (ssh)
 
 Instalar el proyecto: npm install
 Compilar el archivo: npm run build
@@ -25,6 +25,8 @@ Corregir las direcciones de llamado a los archivos css y js insertando un punto 
 - [Bootstrap v5.3](https://getbootstrap.com/) - Librería web usado
 - [Vite](https://vitejs.dev/) - Copilador de código
 - [SASS](https://sass-lang.com/) - Preprocesador
+
+## Autor ✒️
 
 - **Eduardo Herrera Forero** - _Trabajo Inicial_ - [eduardoherreraf](https://github.com/eduardoherreraf)
 
