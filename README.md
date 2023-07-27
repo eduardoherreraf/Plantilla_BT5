@@ -1,6 +1,6 @@
 # plantilla Bootstrap
 
-Plantilla para Bootstrap 5 con preprocesador SASS y con la herramienta compilación y minificado de Vite
+Plantilla para Bootstrap 5 con preprocesador SASS y con la herramienta compilación y minificado Vite.
 
 ## Comenzando 🚀
 
