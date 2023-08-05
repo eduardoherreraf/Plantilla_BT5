@@ -2,3 +2,30 @@
 
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.text_saira {
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.text_big {
+    font-size: 2rem;
+}
+
+.icon_size {
+    font-size: 6rem;
+}
