@@ -84,9 +84,9 @@
     class="container-fluid">
     <!-- navbar -->
     <nav class="row navbar navbar-expand-lg bg-body-tertiary border-1 border fixed-top">
-      <div class="container">
+      <div class="container col-lg-12">
         <a
-          class="navbar-brand d-flex"
+          class="navbar-brand d-flex ms-2"
           href="#">
           <div class="d-none d-sm-block">
             <img
@@ -149,12 +149,13 @@
     </nav>
     <!-- navbar -->
 
-    <main class="row container-fluid">
-      <section class="col-sm-9 container-fluid">
+    <main
+      class="row pt-5"
+      id="about">
+      <!-- -------------------------------- principal -------------------------------- -->
+      <section class="col-lg-8 border-1 border-bottom pb-3">
         <!-- about -->
-        <article
-          class="pt-5 border-1 border-bottom pb-3"
-          id="about">
+        <article class="row border-1 border-bottom pb-3">
           <br />
 
           <h1 class="fw-bold text_saira">EDUARDO <span class="text-primary">HERRERA FORERO</span></h1>
@@ -241,7 +242,7 @@
 
         <!-- resume -->
         <article
-          class="pt-5 border-1 border-bottom pb-3"
+          class="row pt-5 border-1 border-bottom pb-3"
           id="resume">
           <br />
           <h2 class="text_saira fw-bold">EXPERIENCIA</h2>
@@ -483,13 +484,13 @@
 
         <!-- portfolio -->
         <article
-          class="pt-5 border-1 border-bottom pb-3"
+          class="row pt-5 border-1 border-bottom pb-3"
           id="porfolio">
           <br />
           <h2 class="text_saira fw-bold">PORTAFOLIO</h2>
 
           <div class="row text-center">
-            <div class="col-md-6">
+            <div class="col-lg-6">
               <h3 class="text_saira fw-bold">AHORCADO</h3>
               <a
                 href="https://eduardoherreraf.github.io/Ahorcado/"
@@ -503,7 +504,7 @@
                   width="80%"
               /></a>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
               <h3 class="text_saira fw-bold">ENCRIPTADOR</h3>
               <a
                 href="https://eduardoherreraf.github.io/encriptador/"
@@ -523,7 +524,7 @@
 
         <!-- formación  -->
         <article
-          class="pt-5 border-1 border-bottom pb-3"
+          class="row pt-5 border-1 border-bottom pb-3"
           id="studies">
           <br />
           <h2 class="text_saira fw-bold">FORMACIóN PROFESIONAL</h2>
@@ -544,7 +545,7 @@
             >
           </div>
 
-          <h2 class="text_saira fw-bold">FORMACIóN COMPLEMENTARIA</h2>
+          <h2 class="text_saira fw-bold text-break">FORMACIóN COMPLEMENTARIA</h2>
           <div>
             <h3 class="text_saira">DESARROLLO FRONT-END</h3>
             <span>
@@ -567,7 +568,7 @@
 
         <!-- Blog  -->
         <article
-          class="pt-5 border-1 border-bottom pb-3"
+          class="row pt-5 border-1 border-bottom pb-3"
           id="blog">
           <br />
           <h2 class="text_saira fw-bold">BLOG</h2>
@@ -575,19 +576,106 @@
         <!-- fin blog  -->
         <!-- -------------------------------- contacto -------------------------------- -->
         <article
-          class="pt-5 border-1 border-bottom pb-3"
+          class="row pt-5"
           id="contact">
           <br />
           <h2 class="text_saira fw-bold">CONTACTO</h2>
+          <div class="d-flex justify-content-center">
+            <form
+              action="https://formsubmit.co/ehfeduardo@gmail.com"
+              method="POST">
+              <div class="input-group d-flex justify-content-center flex-column">
+                <label
+                  for="name"
+                  class="pe-2"
+                  >Nombre:
+                </label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Eduardo Herrera Forero"
+                  class="rounded"
+                  required />
 
+                <label
+                  for="phone"
+                  class="pe-2"
+                  >Celular:
+                </label>
+                <input
+                  type="phone"
+                  name="phone"
+                  id="phone"
+                  placeholder="3006145402"
+                  class="rounded"
+                  required />
+
+                <label
+                  for="email"
+                  class="pe-2"
+                  class="rounded"
+                  >Email:
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="eduardoherreraf@gmail.com"
+                  class="rounded"
+                  required />
+
+                <label
+                  for="message"
+                  class="pe-2"
+                  >Mensaje:
+                </label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="5"
+                  placeholder="Su mensaje..."
+                  class="rounded rounded-3"></textarea>
+
+                <input
+                  class="btn btn-outline-light my-3 border rounded-pill border-2"
+                  type="submit"
+                  value="Enviar..." />
+
+                <div class="d-flex fs-6 justify-content-evenly cursor-pointer">
+                  <a
+                    href="#"
+                    class="text-decoration-none"
+                    >Política de privacidad</a
+                  ><br />
+                  <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> página gracias -->
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    value="Un nuevo amigo..." />
+                  <input
+                    type="hidden"
+                    name="_captcha"
+                    value="false" />
+                  <!-- no captcha -->
+                  <a
+                    href="#"
+                    class="text-decoration-none"
+                    >Términos y condiciones</a
+                  >
+                </div>
+              </div>
+            </form>
+          </div>
         </article>
         <!-- -------------------------------- fin contacto -------------------------------- -->
       </section>
+      <!-- -------------------------------- fin principal -------------------------------- -->
 
       <!-- -------------------------------- barra lateral -------------------------------- -->
-      <aside class="col-sm-3 pt-5 container-fluid">
-        <br />
-        <h2 class="text_saira fw-bold">PUBLICACIONES</h2>
+      <aside class="col-lg-4">
+        <h2 class="text_saira fw-bold text-break">PUBLICACIONES</h2>
         <ul>
           <li>Usar BT5 con Vite y SASS</li>
           <li>Obtener la llave de github</li>
@@ -597,8 +685,8 @@
       <!-- -------------------------------- fin barra lateral -------------------------------- -->
     </main>
     <!-- -------------------------------- pie de pagina -------------------------------- -->
-    <footer class="bg-danger container-fluid">
+    <footer class="row bg-danger container-fluid">
       <h2>pie</h2>
-          </footer>
+    </footer>
   </body>
 </html>

@@ -70,8 +70,29 @@ h3 {
 
 // formulario
 form {
-    padding: 50px 55px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    padding: 20px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
     border-radius: 20px;
 }
 
+input,
+textarea {
+    padding: 10px 20px;
+    background-color: lightgrey;
+    color: black;
+    // outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+        color: #4b514c;
+}
+
+.btn{
+    background-color: lightgrey;
+    color: black;
+}
+
+.btn:hover{
+    background-color: grey;
+}
