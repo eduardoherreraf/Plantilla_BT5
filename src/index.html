@@ -1,10 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <!-- Metaetiquetas -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Página Web del Ing. Eduardo Herrera Forero, se muestra su hoja de vida y algunas de sus publicaciones." />
+    <meta
+      name="author"
+      content="Ing. Eduardo Herrera Forero" />
+    <meta
+      name="application-name"
+      content="EHF" />
+    <!-- index = indexación eb gg, follow = seguir enlaces salientes, nosnippet = no genera vista previa de vídeos, noarchive = no guarda cache noimageindex = no guardar la página en gg images -->
+    <meta
+      name="robots"
+      content="index, follow, noarchive" />
+    <meta
+      name="google"
+      content="notranslate" />
+    <!-- evita que google muestre en el SERP enlaces a otras partes del sitio, pe contacto, blog, etc. -->
+    <meta
+      name="google"
+      content="nositelinkssearchbox" />
+    <!-- Fin Metaetiquetas -->
+
+    <!-- Open Graph data -->
+    <meta
+      property="og:title"
+      content="Ing. Eduardo Herrera Forero" />
+    <meta
+      property="og:type"
+      content="article" />
+    <meta
+      property="og:url"
+      content="https://eduardoherreraf.github.io/" />
+    <meta
+      property="og:image"
+      content="https://eduardoherreraf.github.io/assets/img/Foto-EduardoHerreraForero.jpg" />
+    <meta
+      property="og:description"
+      content="Ingeniero electrónico especialista en gerencia de proyectos de telecomunicaciones" />
+    <!-- fin Open Graph data -->
+
+    <!-- Twitter cards -->
+    <meta
+      property="twitter:card"
+      content="Ingeniero electrónico especialista en gerencia de proyectos de telecomunicaciones" />
+    <meta
+      property="twitter:creator"
+      content="@ehfeduardo" />
+    <meta
+      property="twitter:title"
+      content="	Ingeniero electrónico especialista en gerencia de proyectos de telecomunicaciones" />
+    <meta
+      property="twitter:url"
+      content="https://eduardoherreraf.github.io/" />
+    <meta
+      property="twitter:image"
+      content="https://eduardoherreraf.github.io/assets/img/Foto-EduardoHerreraForero.jpg" />
+    <meta
+      property="twitter:description"
+      content="Ingeniero electrónico especialista en gerencia de proyectos de telecomunicaciones" />
+
+    <!-- Fin Twitter cards -->
+
     <!-- iconos -->
     <link
       rel="icon"
@@ -75,6 +138,7 @@
       content="#ffffff" />
     <!-- fin iconos -->
     <title>Ing. Eduardo Herrera Forero</title>
+
     <script
       type="module"
       src="./js/main.js"></script>
@@ -286,7 +350,9 @@
                 Publicación de la explicación del PMBoK Versión 5 en
                 <a
                   href="http://pmbok.byethost6.com"
-                  class="not-active"
+                  class="pe-none text-muted"
+                  tabindex="-1"
+                  aria-disabled="true"
                   target="_blank"
                   rel="noopener noreferrer"
                   >http://pmbok.byethost6.com</a
@@ -329,7 +395,9 @@
                 Diseño e implementación del nuevo website
                 <a
                   href="https://empucol.com.co/ "
-                  class="not-active"
+                  class="pe-none text-muted"
+                  tabindex="-1"
+                  aria-disabled="true"
                   target="_blank"
                   rel="noopener noreferrer"
                   >https://empucol.com.co/</a
@@ -341,7 +409,9 @@
                 Administración, mantenimiento y publicación del website
                 <a
                   href="https://empucol.com.co/ "
-                  class="not-active"
+                  class="pe-none text-muted"
+                  tabindex="-1"
+                  aria-disabled="true"
                   target="_blank"
                   rel="noopener noreferrer"
                   >https://empucol.com.co/</a
@@ -601,7 +671,8 @@
           <div class="d-flex justify-content-center">
             <form
               action="https://formsubmit.co/ehfeduardo@gmail.com"
-              method="POST" id="myForm">
+              method="POST"
+              id="myForm">
               <div class="input-group d-flex justify-content-center flex-column">
                 <label
                   for="name"
@@ -759,7 +830,13 @@
           <div>
             <div class="text-center fs-2">Mapa del Sitio</div>
             <ul class="list-unstyled">
-              <li><a href="#about">Sobre Mí</a></li>
+              <li>
+                <a
+                  href="#about"
+                  aria-current="page"
+                  >Sobre Mí</a
+                >
+              </li>
               <li><a href="#resume">Experiencia</a></li>
               <li><a href="#portfolio">Portafolio</a></li>
               <li><a href="#studies">Formación</a></li>
@@ -867,18 +944,30 @@
       </div>
       <div class="d-flex justify-content-center">
         <div>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="48"
-          height="48"
-          fill="currentColor"
-          class="bi bi-c-circle"
-          viewBox="0 0 16 16">
-          <path
-            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
-        </svg>
-        <span class="ms-3">All Rights Reserved 2023</span></div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            fill="currentColor"
+            class="bi bi-c-circle"
+            viewBox="0 0 16 16">
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+          </svg>
+          <span class="ms-3">All Rights Reserved 2023</span>
+        </div>
       </div>
     </footer>
+    <!-- button to top -->
+    <button
+      onclick="topFunction()"
+      id="myBtnScroll"
+      title="Go to top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
+        <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+      </svg>
+    </button>
+    <!-- Fin button to top -->
   </body>
 </html>
