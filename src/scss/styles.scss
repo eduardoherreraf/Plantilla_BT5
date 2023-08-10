@@ -87,3 +87,17 @@ textarea::placeholder {
 #myBtnScroll:hover {
     background: rgba(255, 0, 0, 0.6);
 }
+
+// switch
+.switch{
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:relative;
+
+}
+
+.navbar-collapse{
+    position: relative;
+}

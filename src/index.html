@@ -73,7 +73,7 @@
       rel="icon"
       href="./favicon.ico"
       size="16x16 32x32"
-      type="image/png" />
+      type="image/x-icon" />
     <link
       rel="icon"
       type="image/png"
@@ -145,10 +145,13 @@
   </head>
   <body
     data-bs-theme="dark"
+    data-bs-spy="scroll"
+    data-bs-target=".navbar-collapse"
+    data-bs-offset="100"
     class="container-fluid">
     <!-- navbar -->
-    <nav class="row navbar navbar-expand-lg bg-body-tertiary border-1 border fixed-top">
-      <div class="container col-lg-12">
+    <nav class="row navbar navbar-expand-lg bg-body-tertiary border-1 border fixed-top nav-pills">
+      <div class="container-fluid">
         <a
           class="navbar-brand d-flex ms-2"
           href="#">
@@ -175,7 +178,7 @@
         <div
           class="collapse navbar-collapse"
           id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-content-between">
             <a
               class="nav-link active"
               aria-current="page"
@@ -213,13 +216,13 @@
     </nav>
     <!-- navbar -->
 
-    <main
-      class="row pt-5"
-      id="about">
+    <main class="row pt-5">
       <!-- -------------------------------- principal -------------------------------- -->
       <section class="col-lg-8 pb-3">
         <!-- about -->
-        <article class="row border-1 border-bottom pb-3">
+        <article
+          class="row border-1 border-bottom pb-3"
+          id="about">
           <br />
 
           <h1 class="fw-bold text_saira">EDUARDO <span class="text-primary">HERRERA FORERO</span></h1>
@@ -247,8 +250,8 @@
               rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="48"
-                height="48"
+                width="32"
+                height="32"
                 fill="currentColor"
                 class="bi bi-linkedin"
                 viewBox="0 0 16 16">
@@ -262,8 +265,8 @@
               rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="48"
-                height="48"
+                width="32"
+                height="32"
                 fill="currentColor"
                 class="bi bi-github"
                 viewBox="0 0 16 16">
@@ -277,8 +280,8 @@
               rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="48"
-                height="48"
+                width="32"
+                height="32"
                 fill="currentColor"
                 class="bi bi-facebook"
                 viewBox="0 0 16 16">
@@ -292,8 +295,8 @@
               rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="48"
-                height="48"
+                width="32"
+                height="32"
                 fill="currentColor"
                 class="bi bi-twitter"
                 viewBox="0 0 16 16">
@@ -308,8 +311,8 @@
               rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="48"
-                height="48"
+                width="32"
+                height="32"
                 fill="currentColor"
                 class="bi bi-whatsapp"
                 viewBox="0 0 16 16">
@@ -963,9 +966,19 @@
       onclick="topFunction()"
       id="myBtnScroll"
       title="Go to top">
-      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
-        <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+        fill="currentColor"
+        class="bi bi-chevron-double-up"
+        viewBox="0 0 16 16">
+        <path
+          fill-rule="evenodd"
+          d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z" />
+        <path
+          fill-rule="evenodd"
+          d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
       </svg>
     </button>
     <!-- Fin button to top -->
