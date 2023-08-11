@@ -3,6 +3,10 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
 
+// Import all of Bootstrap's Icons
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+// Import google's Saira fonts
 @import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100&display=swap');
 
 
@@ -89,15 +93,44 @@ textarea::placeholder {
 }
 
 // switch
-.switch{
+.switch {
     padding: 0 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position:relative;
-
+    position: relative;
+    height: 30px;
+    width: 60px;
+    position: relative;
+    border: grey solid 2px;
+    border-radius: 100px;
+    background: #132b41;
 }
 
-.navbar-collapse{
-    position: relative;
+.switch svg {
+    font-size: 1rem;
+    color: #fdc21c;
+}
+
+.menu-options li::before {
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: white;
+    border: solid thin black;
+    left: 0;
+    right: unset;
+}
+
+.menu-options li.active::before {
+    border: solid thin grey;
+    left: unset;
+    right: 0;
+}
+
+.menu-options li.active {
+    background: chocolate;
+    border: solid 2px grey;
 }

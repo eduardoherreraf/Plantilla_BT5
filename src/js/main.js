@@ -7,7 +7,7 @@ import * as bootstrap from "bootstrap";
 document.getElementById("myForm").reset();
 
 // Botón to top
-// Get the button:
+// Get the button
 const myBtnScroll = document.getElementById("myBtnScroll");
 myBtnScroll.addEventListener('click',()=>{
   window.scrollTo(0,0)
@@ -24,3 +24,15 @@ function scrollFunction() {
   }
 }
 // fin Botón to top
+
+// tema oscuro
+// switch
+const swith = document.querySelector(".switch");
+
+swith.addEventListener("click", e=> {
+  swith.classList.toggle("active");
+})
+
+const temaOscuro = () => {
+  document.querySelector("body").setAttribute("data-bs-theme", "dark");
+}
