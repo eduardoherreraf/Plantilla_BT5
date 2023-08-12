@@ -24,15 +24,3 @@ function scrollFunction() {
   }
 }
 // fin Botón to top
-
-// tema oscuro
-// switch
-const swith = document.querySelector(".switch");
-
-swith.addEventListener("click", e=> {
-  swith.classList.toggle("active");
-})
-
-const temaOscuro = () => {
-  document.querySelector("body").setAttribute("data-bs-theme", "dark");
-}
