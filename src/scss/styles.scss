@@ -92,45 +92,8 @@ textarea::placeholder {
     background: rgba(255, 0, 0, 0.6);
 }
 
-// switch
-.switch {
-    padding: 0 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    height: 30px;
-    width: 60px;
-    position: relative;
-    border: grey solid 2px;
-    border-radius: 100px;
-    background: #132b41;
-}
-
-.switch svg {
-    font-size: 1rem;
-    color: #fdc21c;
-}
-
-.menu-options li::before {
-    content: "";
-    position: absolute;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    background: white;
-    border: solid thin black;
-    left: 0;
-    right: unset;
-}
-
-.menu-options li.active::before {
-    border: solid thin grey;
-    left: unset;
-    right: 0;
-}
-
-.menu-options li.active {
-    background: chocolate;
-    border: solid 2px grey;
+// change of theme
+.dl-icon_btn {
+    height: 3rem;
+    width: 3rem;
 }
