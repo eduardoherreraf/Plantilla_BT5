@@ -23,4 +23,3 @@ function scrollFunction() {
     myBtnScroll.style.display = "none";
   }
 }
-// fin Botón to top
