@@ -246,8 +246,8 @@
             <h3 class="fw-bold text_saira">INGENIERO ELECTRÓNICO ESPECIALISTA EN GERENCIA DE PROYECTOS</h3>
             <div class="text-wrap text_saira text_big">
               CELULAR: (57) 300-614-5402, BOGOTÁ&nbsp;D.&nbsp;C.&nbsp;-&nbsp;COLOMBIA,
-              <a href="mailto:EDUARDOHERRERAF@GMAIL.COM?Subject=Correo%20de%20un%20amigo"
-                >EDUARDOHERRERAF@GMAIL.COM</a
+              <a href="mailto:EHFEDUARDO@GMAIL.COM?Subject=Correo%20de%20un%20amigo"
+                >EHFEDUARDO@GMAIL.COM</a
               >
             </div>
             <br />
@@ -426,11 +426,11 @@
                 <li>
                   Administración, mantenimiento y publicación del website
                   <a
-                  href="https://web.archive.org/web/20160313141625/http://empucol.com.co/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://empucol.com.co/</a
-                >
+                    href="https://web.archive.org/web/20160313141625/http://empucol.com.co/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://empucol.com.co/</a
+                  >
                   de acuerdo con la ley de transparencia y el derecho a la información pública, Ley 1712 de
                   2014.
                 </li>
@@ -746,7 +746,7 @@
                     type="email"
                     name="email"
                     id="email"
-                    placeholder="eduardoherreraf@gmail.com"
+                    placeholder="ehfeduardo@gmail.com"
                     class="rounded"
                     required />
 
@@ -933,6 +933,13 @@
     <!-- Fin button to top -->
   </body>
   <script>
+    // pagina ha cargado totalmente
+    window.onload = function () {
+      let tema = localStorage.getItem("theme");
+      if (tema === "null" || tema === "dark") temaOscuro();
+      if (tema === "light") temaClaro();
+    };
+
     // Change of Theme
     const cambiarTema = () => {
       document.querySelector("body").getAttribute("data-bs-theme") === "light" ? temaOscuro() : temaClaro();
@@ -941,12 +948,14 @@
       document.querySelector("body").setAttribute("data-bs-theme", "dark");
       document.querySelector("#dl-icon").setAttribute("src", "./images/sun.svg");
       document.querySelector("#dl-icon").setAttribute("alt", "Tema Diurno");
+      localStorage.setItem("theme", "dark");
     };
 
     const temaClaro = () => {
       document.querySelector("body").setAttribute("data-bs-theme", "light");
       document.querySelector("#dl-icon").setAttribute("src", "./images/moon.svg");
       document.querySelector("#dl-icon").setAttribute("alt", "Tema Nocturno");
+      localStorage.setItem("theme", "light");
     };
   </script>
 </html>
