@@ -933,8 +933,7 @@
   <script>
     // pagina ha cargado totalmente
     window.onload = function () {
-      let tema = localStorage.getItem("theme");
-      alert("tema guardado " + tema);
+        alert("tema guardado " + tema);
       if (tema === "null" || tema === "dark") temaOscuro();
       if (tema === "light") temaClaro();
     };
