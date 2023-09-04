@@ -1362,27 +1362,27 @@
   <script>
     // pagina ha cargado totalmente
     window.onload = function () {
-      alert("tema guardado " + tema);
-      if (tema === "null" || tema === "dark") temaOscuro();
-      if (tema === "light") temaClaro();
+      alert('tema guardado ' + tema);
+      if (tema === 'null' || tema === 'dark') temaOscuro();
+      if (tema === 'light') temaClaro();
     };
 
     // Change of Theme
     const cambiarTema = () => {
-      document.querySelector("body").getAttribute("data-bs-theme") === "light" ? temaOscuro() : temaClaro();
+      document.querySelector('body').getAttribute('data-bs-theme') === 'light' ? temaOscuro() : temaClaro();
     };
     const temaOscuro = () => {
-      document.querySelector("body").setAttribute("data-bs-theme", "dark");
-      document.querySelector("#dl-icon").setAttribute("src", "./images/sun.svg");
-      document.querySelector("#dl-icon").setAttribute("alt", "Tema Diurno");
-      localStorage.setItem("theme", "dark");
+      document.querySelector('body').setAttribute('data-bs-theme', 'dark');
+      document.querySelector('#dl-icon').setAttribute('src', './images/sun.svg');
+      document.querySelector('#dl-icon').setAttribute('alt', 'Tema Diurno');
+      localStorage.setItem('theme', 'dark');
     };
 
     const temaClaro = () => {
-      document.querySelector("body").setAttribute("data-bs-theme", "light");
-      document.querySelector("#dl-icon").setAttribute("src", "./images/moon.svg");
-      document.querySelector("#dl-icon").setAttribute("alt", "Tema Nocturno");
-      localStorage.setItem("theme", "light");
+      document.querySelector('body').setAttribute('data-bs-theme', 'light');
+      document.querySelector('#dl-icon').setAttribute('src', './images/moon.svg');
+      document.querySelector('#dl-icon').setAttribute('alt', 'Tema Nocturno');
+      localStorage.setItem('theme', 'light');
     };
   </script>
 </html>

@@ -6,8 +6,10 @@ Plantilla para Bootstrap 5 con pre-procesador SASS y con la herramienta compilac
 
 Descargar el repo con:
 
-- ```git clone <https://github.com/eduardoherreraf/Plantilla_BT5.git>``` (https) o,
-- ```git clone <git@github.com>:eduardoherreraf/Plantilla_BT5.git``` (ssh)
+```bash
+git clone <https://github.com/eduardoherreraf/Plantilla_BT5.git> (https) o,
+git clone <git@github.com>:eduardoherreraf/Plantilla_BT5.git (ssh)
+```
 
 Instalar el proyecto: ```npm install```.
 
@@ -15,8 +17,10 @@ Compilar el archivo: ```npm run build```.
 
 Corregir las direcciones de llamado a los archivos css y js insertando un punto "." antes del slash, debe quedar asi en la cabecera ```<head>``` del archivo:
 
-- ```<script type="module" crossorigin src="./assets/index-e9ba998b.js"></script>``` y
-- ```<link rel="stylesheet" href="./assets/index-1b619488.css">```
+```html
+<script type="module" crossorigin src="./assets/index-e9ba998b.js"></script> y
+<link rel="stylesheet" href="./assets/index-1b619488.css">
+```
 
 Para evitar que el formateador de código cambie el formato de una sola línea al HTML clásico se debe en VSC desmarcar la opción Format On Save.
 
@@ -36,7 +40,7 @@ De la dirección ```https://getbootstrap.com/docs/5.3/getting-started/vite/```, 
 
 #### Configuración inicial
 
-```dos
+```bash
 mkdir my-project && cd my-project
 npm init -y
 npm i --save-dev vite
@@ -46,7 +50,7 @@ npm i --save-dev sass
 
 #### Configuración del Espacio de Trabajo
 
-```dos
+```bash
 mkdir {src,src/js,src/scss}
 touch src/index.html src/js/main.js src/scss/styles.scss vite.config.js
 ```
@@ -177,7 +181,7 @@ Asi debe quedar este archivo:
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build": "vite build", // para realizar la compilación del proyecto para producción.
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
