@@ -13,17 +13,6 @@ git clone <git@github.com>:eduardoherreraf/Plantilla_BT5.git (ssh)
 
 Instalar el proyecto: ```npm install```.
 
-Compilar el archivo: ```npm run build```.
-
-Corregir las direcciones de llamado a los archivos css y js insertando un punto "." antes del slash, debe quedar asi en la cabecera ```<head>``` del archivo:
-
-```html
-<script type="module" crossorigin src="./assets/index-e9ba998b.js"></script> y
-<link rel="stylesheet" href="./assets/index-1b619488.css">
-```
-
-Para evitar que el formateador de código cambie el formato de una sola línea al HTML clásico se debe en VSC desmarcar la opción Format On Save.
-
 **En este momento ya se puede usar esta plantilla para hacer una página web con Bootstrap + SASS + Vite**
 
 Para iniciar la ejecución del proyecto, mostrar la página web en el navegador: ```npm start```.
@@ -97,12 +86,12 @@ En el archivo ```package.json``` debe quedar configurado así:
 
 ```json
 {
-  // ...
+
   "scripts": {
     "start": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  // ...
+
 }
 ```
 
@@ -200,20 +189,24 @@ Asi debe quedar este archivo:
 }
 ```
 
-## Ejecución del proyecto
-
-Iniciar la ejecución del proyecto ```npm start```.
+## Compilación del proyecto para Producción
 
 Compilar el proyecto para obtener los archivos para producción ```npm run build```.
 
 ## Detalles Finales
 
-Corregir las direcciones de llamado a los archivos css y js insertando un punto "." antes del slash, debe quedar asi:
+Corregir las direcciones de llamado a los archivos css y js insertando un punto "." antes del slash, debe quedar asi en la cabecera ```<head>``` del archivo:
 
-- ```<script type="module" crossorigin src="./assets/index-e9ba998b.js"></script>``` y
-- ```<link rel="stylesheet" href="./assets/index-1b619488.css">```
+```html
+<script type="module" crossorigin src="./assets/index-e9ba998b.js"></script> y
+<link rel="stylesheet" href="./assets/index-1b619488.css">
+```
 
-Para evitar que el formateador de código cambie el formato del código de una sola línea al HTML clásico se debe en VSC desmarcar la opción Format On Save.
+Se debe verificar que toda dirección de imágenes que estén en la carpeta assets/ inicie con un punto antes del slash p.ej debe quedar algo así ```./assets/moon.svg```
+
+Asegurarse que todas las imágenes que se manejen en la etiqueta script esté disponible en la carpeta assets/ y con su adecuada dirección ```./assets/sun-86eb3c88.svg```
+
+Para evitar que el formateador de código cambie el formato de una sola línea al HTML clásico se debe en VSC desmarcar la opción Format On Save.
 
 ## Construido con 🛠️
 
