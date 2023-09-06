@@ -662,33 +662,55 @@
             id="blog">
             <br />
             <h2 class="text_saira fw-bold">PUBLICACIONES</h2>
-            <article>
-              <h3 class="text_saira fw-bold">
-                INSTALACIÓN DE BOOTSTRAP V5.3 CON EL MANEJADOR DE PAQUETES NPM y VITE
-              </h3>
+            <article
+              class="accordion accordion-flush"
+              id="accordionFlushExample">
+              <!-- instalación BT + Vite + SASS -->
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fs-5"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne">
+                    INSTALACIÓN DE BOOTSTRAP V5.3 CON EL MANEJADOR DE PAQUETES NPM y VITE
+                  </button>
+                </h3>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <pre
+                      class="line-numbers"
+                      data-src-status="loaded"
+                      tabindex="0"><code class="language-css" data-prismjs-copy="Copy">
+                        * {
+                          margin: 0;
+                          padding: 0;
+                        }
 
-              <pre
-                class="line-numbers"
-                data-src-status="loaded"
-                tabindex="0"><code class="language-css" data-prismjs-copy="Copy">
-                  * {
-                    margin: 0;
-                    padding: 0;
-                  }
+                        body {
+                          font: 100%/1.5 Questrial, sans-serif;
+                          tab-size: 4;
+                          hyphens: auto;
+                        }
 
-                  body {
-                    font: 100%/1.5 Questrial, sans-serif;
-                    tab-size: 4;
-                    hyphens: auto;
-                  }
+                        a {
+                          color: inherit;
+                        }
 
-                  a {
-                    color: inherit;
-                  }
+                        p { color: <span><span class="inline-color-wrapper"><span class="inline-color" style="background-color:red;"></span></span>red</span> }
+                    </code></pre>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- fin instalación BT + Vite + SASS -->
 
-                  p { color: <span><span class="inline-color-wrapper"><span class="inline-color" style="background-color:red;"></span></span>red</span> }
-              </code></pre>
-
+            <!-- light line numbers
               <pre
                 data-line="1-9"
                 data-src-status="loaded"
@@ -710,7 +732,7 @@
 
                 p { color: red }
             </code></pre>
-            </article>
+             -->
           </article>
           <!-- fin Blog  -->
           <!-- -------------------------------- contacto -------------------------------- -->

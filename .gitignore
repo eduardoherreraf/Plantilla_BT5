@@ -3,3 +3,6 @@
 
 # ignora carpeta dist
 **dist/*
+
+# ignora carpeta .vscode
+.vscode/
