@@ -120,11 +120,17 @@ import * as bootstrap from 'bootstrap'
 
 ## Instalación plugin PurgeCSS
 
-```npm i vite-plugin-purgecss```, este plugin elimina toda clase de CSS que no sea utilizada.
+```bash 
+npm i vite-plugin-purgecss
+```
+Este plugin elimina toda clase de CSS que no sea utilizada.
 
 ## Instalación plugin HTML
 
-```npm i vite-plugin-HTML```, este plugin elimina toda espacio extra o cambio de línea del documento HTML y deja todo el código en una sola línea.
+```bash
+npm i vite-plugin-html
+```
+Este plugin elimina toda espacio extra o cambio de línea del documento HTML y deja todo el código en una sola línea.
 Si este comando no funciona apropiadamente copiarlo directamente de la página de mpn [npm i vite-plugin-HTML](https://www.npmjs.com/package/vite-plugin-html)
 
 ### Configuración archivo vite.cfg.js
