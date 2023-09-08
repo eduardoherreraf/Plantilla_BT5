@@ -131,7 +131,6 @@ Este plugin elimina toda clase de CSS que no sea utilizada.
 npm i vite-plugin-html
 ```
 Este plugin elimina toda espacio extra o cambio de línea del documento HTML y deja todo el código en una sola línea.
-Si este comando no funciona apropiadamente copiarlo directamente de la página de mpn [npm i vite-plugin-HTML](https://www.npmjs.com/package/vite-plugin-html)
 
 ### Configuración archivo vite.cfg.js
 
@@ -196,7 +195,11 @@ Asi debe quedar este archivo:
 
 ## Compilación del proyecto para Producción
 
-Compilar el proyecto para obtener los archivos para producción ```npm run build```.
+Compilar el proyecto para obtener los archivos para producción:
+```bash
+npm run build
+```
+Después de compilado se dispone del proyecto para desplegar en la carpeta ```dist/```.
 
 ## Detalles Finales
 
