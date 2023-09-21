@@ -193,14 +193,17 @@
           <div class="me-3">
             <button
               onclick="cambiarTema()"
-              class="btn text-center d-flex">
-              <img
-                src="./images/sun.svg"
-                id="dl-icon"
-                height="32"
-                width="32"
-                alt="Tema Diurno"
-                class="text-center" />
+              id="dl-icon"
+              class="btn text-center d-flex bg-body-tertiary text-light">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="bi bi-circle-half"
+                viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+              </svg>
             </button>
           </div>
         </div>
@@ -864,7 +867,8 @@
                     <h4>Compilación del proyecto para Producción</h4>
                     <p>
                       Cuando se haya terminado y se quiera obtener la versión para producción se ejecuta el
-                      comando: <b>npm run build</b> y los archivos se quedan disponibles en la carpeta <b>dist</b>."
+                      comando: <b>npm run build</b> y los archivos se quedan disponibles en la carpeta
+                      <b>dist</b>."
                     </p>
                     <h5>Corrección del archivo <b>index.html</b></h5>
                     <p>
@@ -1657,15 +1661,17 @@
     };
     const temaOscuro = () => {
       document.querySelector('body').setAttribute('data-bs-theme', 'dark');
-      document.querySelector('#dl-icon').setAttribute('src', './images/sun.svg');
-      document.querySelector('#dl-icon').setAttribute('alt', 'Tema Diurno');
+      document
+        .querySelector('#dl-icon')
+        .setAttribute('class', 'btn text-center d-flex bg-body-tertiary text-light');
       localStorage.setItem('theme', 'dark');
     };
 
     const temaClaro = () => {
       document.querySelector('body').setAttribute('data-bs-theme', 'light');
-      document.querySelector('#dl-icon').setAttribute('src', './images/moon.svg');
-      document.querySelector('#dl-icon').setAttribute('alt', 'Tema Nocturno');
+      document
+        .querySelector('#dl-icon')
+        .setAttribute('class', 'btn text-center d-flex bg-body-tertiary text-dark');
       localStorage.setItem('theme', 'light');
     };
   </script>
