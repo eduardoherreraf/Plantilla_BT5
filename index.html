@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <!-- Metaetiquetas -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width,initial-scale=1" />
+      content="width=device-width, initial-scale=1" />
     <meta
       name="description"
       content="Página Web del Ing. Eduardo Herrera Forero, se muestra su hoja de vida y algunas de sus publicaciones." />
@@ -26,6 +27,9 @@
     <link
       rel="canonical"
       href="https://eduardoherreraf.github.io/" />
+    <!-- Fin Metaetiquetas -->
+
+    <!-- Open Graph data -->
     <meta
       property="og:title"
       content="Ing. Eduardo Herrera Forero" />
@@ -47,6 +51,9 @@
     <meta
       property="og:type"
       content="website" />
+    <!-- fin Open Graph data -->
+
+    <!-- Twitter cards -->
     <meta
       property="twitter:title"
       content="Ing. Eduardo Herrera Forero" />
@@ -71,26 +78,29 @@
     <meta
       name="twitter:site"
       content="@ehfeduardo" />
+    <!-- Fin Twitter cards -->
+
+    <!-- iconos -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/assets/apple-touch-icon-02198626.png" />
+      href="/apple-touch-icon.png" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACW1BMVEUAAADgwD3hwT3fvz3gwD7hwD3gwT7fvz7txjPv3izgvz3fwD3evj3gwT3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3///975D5wAAAAx3RSTlMAAAAAAAAAAAAAAAAAAAsbCQEtJRQ/AgMgS1EFDQd5H2J4EigEFlMYcnNXfiYpuSGDLoEiO6Q3Bq6TpzROw2vZJKDFSBBj3F8v54iwMGTdXg9YaUHsgrq+xITtdHxaHTWKs4tEGo73pSNV+JQsYKiHOJ3h0pGNXKtbouaXrRX1MQhNhZtPu5pqTD4TYXWZqbbUbtW1mIZKDn3+t3/ysnd2ydYZHsK8ehFoofmPwb1SMgropr+vZSfX3+TeDCran8ZAkpYcM3tZJzKIcQAAAAFiS0dEyB26V8oAAAAHdElNRQfnCB8WKjs5VHdcAAACrElEQVQ4y3WT+z+TcRTH91Hr3uYZ2zOMucwYZqLYpmGmzObWRNhKpBAxJbdcuim5hAqJrsqlVIrW/X7Zv9V3Y7ZlnR/O6znnvF/fc17n+RwGw83AYoHh2by8vDYQgM0mwEYmk7kOALwpMMDhEEd5Ax4AH19S43KJ8/VxB8CjsYkBvh8Af3/i/PiEQgDtoBDgIyDpwCAhEBwMCEMCSRgaJloDEC6OIKngSEAiASIJBGFUqLMPEBYdA0hjZYiLgyxWCuyKT3CdA9i9JxFJ8mgoFIiWJ4GrTHbUyWvYTPxelR9SUtPU6rTUFPinawB7iUm8QJhBka99+zO1WTq9XpeVnZObR2oidli+HaNlBwwFoaBDDhYWHSouPlRUUmrkkaTp8BGevQ+QVHa0vOJY5fETVdU1NdXKk7V1p+pVDXW0c0qIzI2nzzRVnW1uaWk1tcnbs85l89y3DTpZ3dFp6LJau3J8Oxq7neXzndXd3AvNKUEXL+kv91iJ9YjlV0pCrrb2XtPK+gIZAllib/+AbvD6UPqwQWUDVCM3VDfrb41KMsfKhCznD5M2tY3fnrBaJ0z8OyUy6p8JwJ/Mnbo7eU83PKy7P/hg6qHkkcumQU0bHz+ZMc90Nc7OzYXPP31WULjw3BCxBavlzhdxIy8XEfVK8Xp+SbW8XFv6BgKzJH5s1vYKkK+1LJLNat4OSN9V6MvV7znGD2Jg68dPHBa2MZig7As3L+Wh+bNF/aWsvR95X7/ZkhRFgNUhpWrNdt78KBTf8UNJ79Aote5y+Gn6RUQ0ZLEJpntBBiQXCl0FlSEm+kHNb7vkqIY/JEiIml0jILL0kRRttKyIlmOiSdjnIlo6wDZSpZi3InteK9td9qt9YtiOw5kO83hZ4zzH6dH5HoCdsK/NfrwA/nfj68//L1Adnh3FPNtpAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTA4LTMxVDIyOjQyOjU5KzAwOjAwKdGFzAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wOC0zMVQyMjo0Mjo1OSswMDowMFiMPXAAAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII=" />
+      href="/favicon-32x32.png" />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABGlBMVEUAAADgwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3gwD3///99FtglAAAAXXRSTlMAAAsCDxsKCDEQLAk3EitJPhQ4ARhjLnxpMGQWES0fL4ebp5yJJzQVT3aOn3udgVEmaJ598vFmNhcMHkNxpoL496ltQh1Mg5iUi4ykSA6Elqg1AxNgeGpvMmVKUipzjVNxAAAAAWJLR0Rdnd8wAQAAAAd0SU1FB+cIHxYqOzlUd1wAAADkSURBVBjTY2BgYGAEAiYmEMkA5TGzMLKyMrIwg8UYGdnYGTk4ubg4ORi5mcAC3Dy8fPwCAvx8gkLcIAFhRhFRMXEJCXFJKWlGZqCAjKycvIKikpKyCoeqGi9Ii7qGppa2uI6usp6+IFALt4gBj6GRsYmpuJGZuYEFO4OlFYe1ja2dvYOKo5OzpAsTUAunq5u7h6eXrreejy/IFl5zMXk/f+0AZU81yUBOoEAQY3AIR2hYuF5EpCCQA9TCbq6uGiUgEB2jLsQOdikTN6MkLxeXoBrM6UDP8YI8F8yM8LAwyPvCYB4A8vIXeKKgYmAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDgtMzFUMjI6NDI6NTkrMDA6MDAp0YXMAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTA4LTMxVDIyOjQyOjU5KzAwOjAwWIw9cAAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==" />
+      href="/favicon-16x16.png" />
     <link
       rel="manifest"
-      href="data:application/manifest+json;base64,ewogICAgIm5hbWUiOiAiIiwKICAgICJzaG9ydF9uYW1lIjogIiIsCiAgICAiaWNvbnMiOiBbCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi9hbmRyb2lkLWNocm9tZS0xOTJ4MTkyLnBuZyIsCiAgICAgICAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi9hbmRyb2lkLWNocm9tZS01MTJ4NTEyLnBuZyIsCiAgICAgICAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgICAgIH0KICAgIF0sCiAgICAidGhlbWVfY29sb3IiOiAiI2ZmZmZmZiIsCiAgICAiYmFja2dyb3VuZF9jb2xvciI6ICIjZmZmZmZmIiwKICAgICJkaXNwbGF5IjogInN0YW5kYWxvbmUiCn0K" />
+      href="/site.webmanifest" />
     <link
       rel="mask-icon"
-      href="/assets/safari-pinned-tab-a3420c08.svg"
+      href="/safari-pinned-tab.svg"
       color="#5bbad5" />
     <meta
       name="msapplication-TileColor"
@@ -98,17 +108,18 @@
     <meta
       name="theme-color"
       content="#ffffff" />
+    <!-- fin iconos -->
+
     <title>Ing. Eduardo Herrera Forero</title>
+
+    <script
+      type="module"
+      defer
+      src="./js/main.js"></script>
+
     <meta
       name="google-site-verification"
       content="2H5ZMCD1_xl7oxaiqnopfdQBnIXVIOfmW0UBSa5sQJc" />
-    <script
-      type="module"
-      crossorigin
-      src="./assets/index-625595b5.js"></script>
-    <link
-      rel="stylesheet"
-      href="./assets/index-f6afda92.css" />
   </head>
   <body
     data-bs-theme="dark"
@@ -117,21 +128,23 @@
     data-bs-offset="10"
     class="container-fluid code-toolbar"
     id="about">
+    <!-- navbar -->
     <nav class="row navbar navbar-expand-lg bg-body-tertiary border-1 border fixed-top nav-pills">
       <div class="container-fluid">
         <a
           class="navbar-brand d-flex ms-2"
-          href="#"
-          ><div class="d-none d-sm-block">
+          href="#">
+          <div class="d-none d-sm-block">
             <img
-              src="./assets/logo-22d9e35a.png"
+              src="./images/logo.png"
               alt="Logo de Ing. Eduardo Herrera Forero"
               width="30"
               height="30"
               class="d-inline-block align-text-top me-1" />
           </div>
-          Ing. Eduardo Herrera Forero </a
-        ><button
+          Ing. Eduardo Herrera Forero
+        </a>
+        <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -180,22 +193,28 @@
           <div class="me-3">
             <button
               onclick="cambiarTema()"
-              class="btn text-center d-flex">
-              <img
-                src="./assets/sun-86eb3c88.svg"
-                id="dl-icon"
-                height="32"
-                width="32"
-                alt="Tema Diurno"
-                class="text-center" />
+              id="dl-icon"
+              class="btn text-center d-flex bg-body-tertiary text-light">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="bi bi-circle-half"
+                viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+              </svg>
             </button>
           </div>
         </div>
       </div>
     </nav>
+    <!-- navbar -->
     <div class="row col">
       <main class="pt-5 col-lg-8">
+        <!-- -------------------------------- principal -------------------------------- -->
         <section class="pb-3">
+          <!-- about -->
           <article
             class="row border-1 border-bottom pb-3"
             id="about">
@@ -212,9 +231,10 @@
               telecomunicaciones, <span class="fw-bold fs-4">diseño, mantenimiento y administración</span> de
               páginas Web, <span class="fw-bold fs-4">docencia</span> en Técnicas Digitales, soporte
               preventivo y correctivo de equipos de cómputo y en soporte correctivo de planes de datos en
-              Comcel.<br />Con orientación a logros, organización, resolución de problemas y capacidad de
-              análisis.
+              Comcel. <br />
+              Con orientación a logros, organización, resolución de problemas y capacidad de análisis.
             </div>
+            <!-- redes sociales -->
             <div class="mt-3 d-flex justify-content-evenly">
               <a
                 href="https://www.linkedin.com/in/eduardoherreraf/"
@@ -229,12 +249,13 @@
                   viewBox="0 0 16 16">
                   <path
                     d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                </svg> </a
-              ><a
+                </svg>
+              </a>
+              <a
                 href="https://github.com/eduardoherreraf"
                 target="_blank"
-                rel="noopener noreferrer"
-                ><svg
+                rel="noopener noreferrer">
+                <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
                   height="32"
@@ -243,12 +264,13 @@
                   viewBox="0 0 16 16">
                   <path
                     d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                </svg> </a
-              ><a
+                </svg>
+              </a>
+              <a
                 href="https://www.facebook.com/eduardoherreraforero/"
                 target="_blank"
-                rel="noopener noreferrer"
-                ><svg
+                rel="noopener noreferrer">
+                <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
                   height="32"
@@ -257,8 +279,9 @@
                   viewBox="0 0 16 16">
                   <path
                     d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                </svg> </a
-              ><a
+                </svg>
+              </a>
+              <a
                 href="https://twitter.com/ehfeduardo/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -271,12 +294,14 @@
                   viewBox="0 0 16 16">
                   <path
                     d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                </svg> </a
-              ><a
+                </svg>
+              </a>
+
+              <a
                 href="http://wa.me/573006145402?text=Buen día..."
                 target="_blank"
-                rel="noopener noreferrer"
-                ><svg
+                rel="noopener noreferrer">
+                <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
                   height="32"
@@ -288,12 +313,18 @@
                 </svg>
               </a>
             </div>
+            <!-- fin redes sociales -->
           </article>
+          <!-- fin About -->
+
+          <!-- resume -->
           <article
             class="row pt-5 border-1 border-bottom pb-3"
             id="resume">
             <br />
             <h2 class="text_saira fw-bold">EXPERIENCIA</h2>
+
+            <!-- webmaster -->
             <div>
               <h3 class="text_saira">WEBMASTER</h3>
               <span>Bogotá D. C., Diciembre/2014 - Actualmente</span>
@@ -324,6 +355,9 @@
                 </li>
               </ul>
             </div>
+            <!-- fin webmaster -->
+
+            <!-- técnico de soporte Kamilion -->
             <div>
               <h3 class="text_saira">TÉCNICO DE SOPORTE</h3>
               <span
@@ -338,6 +372,9 @@
                 <li>Actualización de casos.</li>
               </ul>
             </div>
+            <!-- fin técnico de soporte Kamilion -->
+
+            <!-- webmaster Empucol -->
             <div>
               <h3 class="text_saira">INGENIERO DE SOPORTE Y WEBMASTER</h3>
               <span
@@ -374,10 +411,13 @@
                 <li>Mantenimiento tanto preventivo como correctivo de los equipos de cómputo.</li>
               </ul>
             </div>
+            <!-- fin webmaster Empucol -->
+
+            <!-- trabajo USTA -->
             <div>
               <h3 class="text_saira">EXPOSICIÓN DE LA HERRAMIENTA DE GESTIÓN DE PROYECTOS PMBoK v5</h3>
-              <span
-                >Bogotá D. C., 2, 9, y 16 de Agosto/2014 ||
+              <span>
+                Bogotá D. C., 2, 9, y 16 de Agosto/2014 ||
                 <span class="fw-bold">Universidad Santo Tomás</span></span
               >
               <ul>
@@ -385,6 +425,9 @@
                 <li>Exposición de las presentaciones de las áreas de conocimiento del PMBok.</li>
               </ul>
             </div>
+            <!-- fin trabajo USTA -->
+
+            <!-- trabajo BPO -->
             <div>
               <h3 class="text_saira">ANALISTA DE TIQUETES DE CRM (SIEBEL)</h3>
               <span
@@ -395,11 +438,14 @@
                 <li>Análisis y resolución de los tiquetes de incidentes en la plataforma Siebel de ETB.</li>
               </ul>
             </div>
+            <!-- fin trabajo BPO -->
+
+            <!-- trabajo Hw -->
             <div>
               <h3 class="text_saira">INGENIERO DE SOPORTE</h3>
-              <span
-                >Bogotá D. C., Mayo/2005 – Mayo/2012 ||
-                <span class="fw-bold">Huawei Technologies Co Ltd. Sucursal Colombia</span></span
+              <span>
+                Bogotá D. C., Mayo/2005 – Mayo/2012 ||
+                <span class="fw-bold">Huawei Technologies Co Ltd. Sucursal Colombia </span></span
               >
               <ul>
                 <li>
@@ -430,6 +476,9 @@
                 <li>Visita y elaboración de reportes de site survey para diferentes clientes de Huawei.</li>
               </ul>
             </div>
+            <!-- fin trabajo Hw -->
+
+            <!-- trabajo gerente Publicidad Electrónica -->
             <div>
               <h3 class="text_saira">GERENTE</h3>
               <span
@@ -445,6 +494,10 @@
                 <li>Realización de los reportes del conteo para su entrega al cliente.</li>
               </ul>
             </div>
+            <!-- fin trabajo gerente Publicidad Electrónica
+          -->
+
+            <!-- trabajo ICTE -->
             <div>
               <h3 class="text_saira">PROFESOR CÁTEDRA TÉCNICAS DIGITALES</h3>
               <span
@@ -462,10 +515,13 @@
                 <li>Dictar la materia “técnicas digitales”</li>
               </ul>
             </div>
+            <!-- fin trabajo ICTE -->
+
+            <!-- trabajo Siemens Líder -->
             <div>
               <h3 class="text_saira">LÍDER TRANSMISIÓN PROYECTO CAPITEL</h3>
-              <span
-                >Bogotá D. C., Noviembre/1998 – Agosto/1999 ||
+              <span>
+                Bogotá D. C., Noviembre/1998 – Agosto/1999 ||
                 <span class="fw-bold">Siemens Andina S. A</span></span
               >
               <ul>
@@ -486,25 +542,33 @@
                 </li>
               </ul>
             </div>
+            <!-- fin trabajo Siemens Líder -->
+
+            <!-- trabajo Siemens Ing -->
             <div>
               <h3 class="text_saira">
                 INGENIERO DE PUESTA EN SERVICIO, OPERACIÓN Y MANTENIMIENTO PROYECTO CAPITEL
               </h3>
-              <span
-                >Bogotá D. C., Noviembre/1997 – Octubre/1998 ||
+              <span>
+                Bogotá D. C., Noviembre/1997 – Octubre/1998 ||
                 <span class="fw-bold">Siemens Andina S. A</span></span
               >
               <ul>
                 <li>Puesta en servicio de equipos ópticos PDH y SDH.</li>
               </ul>
             </div>
+            <!-- fin trabajo Siemens Ing -->
           </article>
+          <!-- fin resume -->
+
+          <!-- portfolio -->
           <article
             class="row pt-5 border-1 border-bottom pb-3"
             id="portfolio">
             <br />
             <h2 class="text_saira fw-bold">PORTAFOLIO</h2>
-            <div class="row text-center">
+
+            <div class="row text-center d-flex">
               <div class="col-lg-4">
                 <h3 class="text_saira fw-bold">AHORCADO</h3>
                 <a
@@ -514,7 +578,7 @@
                   title="¡Juega!"
                   class="fs-1"
                   ><img
-                    src="./assets/Ahorcado-2417b33c.png"
+                    src="https://i.imgur.com/jatd2ot.png"
                     alt="Juego del Ahorcado - Ing. Eduardo Herrera Forero"
                     width="80%"
                 /></a>
@@ -528,13 +592,13 @@
                   title="¡Encripta!"
                   class="fs-6"
                   ><img
-                    src="./assets/encriptador-1dd4498d.png"
+                    src="https://i.imgur.com/2Zyf0nR.png"
                     alt="Encriptador - Ing. Eduardo Herrera Forero"
-                    width="80%"
-                /></a>
+                    width="80%" />
+                </a>
               </div>
               <div class="col-lg-4">
-                <h3 class="text_saira fw-bold">empucol.com.co</h3>
+                <h3 class="text_saira fw-bold">EMPUCOL.COM.CO</h3>
                 <a
                   href="https://web.archive.org/web/20160313141625/http://empucol.com.co/"
                   target="_blank"
@@ -542,44 +606,58 @@
                   title="git add"
                   class="fs-6"
                   ><img
-                    src="./assets/empucol_com_co-8807ecc8.jpg"
+                    src="https://i.imgur.com/jwLI3LU.jpg"
                     alt="Empucol.com.co - Ing. Eduardo Herrera Forero"
-                    width="80%"
-                /></a>
+                    width="80%" />
+                </a>
               </div>
             </div>
           </article>
+          <!-- fin portfolio -->
+
+          <!-- formación  -->
           <article
             class="row pt-5 border-1 border-bottom pb-3"
             id="studies">
             <br />
             <h2 class="text_saira fw-bold">FORMACIóN PROFESIONAL</h2>
+
             <div>
               <h3 class="text_saira">ESPECIALIZACIÓN EN GERENCIA DE PROYECTOS DE TELECOMUNICACIONES</h3>
-              <span>Bogotá D. C., 2012 || <span class="fw-bold">Universidad Santo Tomás</span></span>
+              <span>
+                Bogotá D. C., 2012 ||
+                <span class="fw-bold">Universidad Santo Tomás </span></span
+              >
             </div>
             <br />
             <div>
               <h3 class="text_saira">INGENIERÍA ELECTRÓNICA</h3>
-              <span>Bogotá D. C., 1998 || <span class="fw-bold">Universidad Santo Tomás</span></span>
+              <span>
+                Bogotá D. C., 1998 ||
+                <span class="fw-bold">Universidad Santo Tomás </span></span
+              >
             </div>
             <h2 class="text_saira fw-bold text-break mt-4">FORMACIóN COMPLEMENTARIA</h2>
             <div>
               <h3 class="text_saira">DESARROLLO FRONT-END</h3>
-              <span
-                >Bogotá D. C., 2022 || <span class="fw-bold">Alura - Oracle Next Education (ONE)</span></span
+              <span>
+                Bogotá D. C., 2022 ||
+                <span class="fw-bold">Alura - Oracle Next Education (ONE)</span></span
               >
             </div>
             <div>
               <h3 class="text_saira">ITIL (Information Technology Infrastructure Library)</h3>
-              <span
-                >Bogotá D. C., 2017 ||
+              <span>
+                Bogotá D. C., 2017 ||
                 <span class="fw-bold"
                   >CET (Corporación de Educación Tecnológica Colsubsidio – Airbus Group)</span
                 ></span
               >
             </div>
           </article>
+          <!-- fin formación  -->
+
+          <!-- Blog  -->
           <article
             class="row pt-5 border-1 border-bottom pb-3"
             id="blog">
@@ -589,6 +667,7 @@
             <section
               class="accordion accordion-flush"
               id="accordionFlushExample">
+              <!-- instalación BT + Vite + SASS -->
               <article class="accordion-item">
                 <h4 class="accordion-header">
                   <button
@@ -689,6 +768,7 @@
                       }
                   </code></pre>
                     <p>Iniciar el proyecto con vite: <b>npm start</b>, en el navegador</p>
+
                     <h4>Importación Bootstrap v5.3</h4>
                     <p>En el archivo <b>src/scss/styles.scss</b> se importa los estilos CSS:</p>
                     <pre
@@ -709,6 +789,7 @@
                         // Import all of Bootstrap's JS
                         import * as bootstrap from 'bootstrap'
                     </code></pre>
+
                     <h5>Instalación plugin PurgeCSS plugin HTML</h5>
                     <pre
                       class="line-numbers"
@@ -751,6 +832,7 @@
                           }
                         }
                     </code></pre>
+
                     <h4>Configuraciones finales</h4>
                     <p>El archivo <b>package.json</b>, finalmente se debe tener asi:</p>
                     <pre
@@ -785,9 +867,10 @@
                     <h4>Compilación del proyecto para Producción</h4>
                     <p>
                       Cuando se haya terminado y se quiera obtener la versión para producción se ejecuta el
-                      comando: <b>npm run build</b> los archivos se tienen disponibles en la carpeta <b>dist</b>. 
+                      comando: <b>npm run build</b> y los archivos se quedan disponibles en la carpeta
+                      <b>dist</b>."
                     </p>
-                    <h4>Corrección del archivo <b>index.html</b></h4>
+                    <h5>Corrección del archivo <b>index.html</b></h5>
                     <p>
                       Corregir las direcciones de llamado a los archivos css y js insertando un punto "."
                       antes del slash, debe quedar asi en la cabecera &lt;head&gt; del archivo:
@@ -807,13 +890,72 @@
                     <p>
                       Si la imagen se encuentra en la etiqueta <b>&lt;script&gt;</b>, esta no aparecerá en la
                       carpeta <b>assets/</b>, se debe copiar en esta carpeta y su dirección se debe cambiar p.
-                      ej de <b>./images/moon.svg</b> a <b>./assets/moon.svg</b>
+                      ej de <b>./images/moon.svg</b> a
+                      <b>./assets/moon.svg</b>
                     </p>
                   </div>
                 </div>
               </article>
+              <!-- fin instalación BT + Vite + SASS -->
             </section>
+
+            <!-- line numbers
+              <pre
+                      class="line-numbers"
+                      data-src-status="loaded"
+                      tabindex="0"><code class="language-javascript" data-prismjs-copy="Copy">
+                        {
+                          "name": "my-project",
+                          "version": "1.0.0",
+                          "description": "",
+                          "main": "index.js",
+                          "scripts": {
+                            "start": "vite",
+                            "build": "vite build",
+                            "test": "echo \"Error: no test specified\" && exit 1"
+                          },
+                          "keywords": [],
+                          "author": "",
+                          "license": "ISC",
+                          "devDependencies": {
+                            "sass": "^1.64.1",
+                            "vite": "^4.4.7",
+                            "vite-plugin-html": "^3.2.0"
+                          },
+                          "dependencies": {
+                            "@popperjs/core": "^2.11.8",
+                            "bootstrap": "^5.3.0",
+                            "vite-plugin-purgecss": "^0.2.12"
+                          }
+                        }
+                    </code></pre> -->
+
+            <!-- Line Highlight
+              <pre
+                data-line="1-9"
+                data-src-status="loaded"
+                tabindex="0"><code class="language-css" data-prismjs-copy="Copy">
+                * {
+                  margin: 0;
+                  padding: 0;
+                }
+
+                body {
+                  font: 100%/1.5 Questrial, sans-serif;
+                  tab-size: 4;
+                  hyphens: auto;
+                }
+
+                a {
+                  color: inherit;
+                }
+
+                p { color: red }
+            </code></pre>
+             -->
           </article>
+          <!-- fin Blog  -->
+          <!-- -------------------------------- contacto -------------------------------- -->
           <article
             class="row pt-5"
             id="contact">
@@ -828,19 +970,21 @@
                   <label
                     for="name"
                     class="pe-2"
-                    >Nombre:</label
-                  >
+                    >Nombre:
+                  </label>
                   <input
+                    type="text"
                     name="name"
                     id="name"
                     placeholder="Eduardo Herrera Forero"
                     class="rounded"
                     required />
+
                   <label
                     for="phone"
                     class="pe-2"
-                    >Celular:</label
-                  >
+                    >Celular:
+                  </label>
                   <input
                     type="phone"
                     name="phone"
@@ -848,12 +992,13 @@
                     placeholder="3006145402"
                     class="rounded"
                     required />
+
                   <label
                     for="email"
                     class="pe-2"
                     class="rounded"
-                    >Email:</label
-                  >
+                    >Email:
+                  </label>
                   <input
                     type="email"
                     name="email"
@@ -861,11 +1006,12 @@
                     placeholder="ehfeduardo@gmail.com"
                     class="rounded"
                     required />
+
                   <label
                     for="message"
                     class="pe-2"
-                    >Mensaje:</label
-                  >
+                    >Mensaje:
+                  </label>
                   <textarea
                     name="message"
                     id="message"
@@ -873,18 +1019,23 @@
                     rows="5"
                     placeholder="Su mensaje..."
                     class="rounded rounded-3"></textarea>
+
                   <input
                     class="btn btn-outline-light my-3 border rounded-pill border-2"
                     type="submit"
                     value="Enviar..." />
+
                   <div class="d-flex fs-6 justify-content-evenly cursor-pointer">
+                    <!-- Política de privacidad -->
                     <div>
+                      <!-- Button trigger modal -->
                       <a
                         class="text-primary text-decoration-none"
                         data-bs-toggle="modal"
-                        data-bs-target="#privacidad"
-                        >Política de privacidad</a
-                      >
+                        data-bs-target="#privacidad">
+                        Política de privacidad
+                      </a>
+                      <!-- Modal -->
                       <div
                         class="modal fade"
                         id="privacidad"
@@ -907,45 +1058,47 @@
                             </div>
                             <div class="modal-body">
                               El sitio web Ing. Eduardo Herrera Forero es propiedad del Ingeniero Eduardo
-                              Herrera Forero, que es un controlador de datos de tus datos personales.<br /><br />Hemos
-                              adoptado esta Política de privacidad, que determina cómo procesamos la
+                              Herrera Forero, que es un controlador de datos de tus datos personales.
+                              <br /><br />
+                              Hemos adoptado esta Política de privacidad, que determina cómo procesamos la
                               información recopilada por Ing. Eduardo Herrera Forero, que también proporciona
                               las razones por las que debemos recopilar ciertos datos personales sobre ti. Por
                               lo tanto, debes leer esta Política de privacidad antes de usar el sitio web del
-                              Ing. Eduardo Herrera Forero.<br /><br />Cuidamos tus datos personales y nos
-                              comprometemos a garantizar su confidencialidad y seguridad.<br /><br /><strong
-                                >Información personal que recopilamos</strong
-                              >:<br />Cuando visitas la página web del Ing. Eduardo Herrera Forero,
-                              recopilamos automáticamente cierta información sobre tu dispositivo, incluida
-                              información sobre tu navegador web, dirección IP, zona horaria y algunas de las
-                              cookies instaladas en tu dispositivo. Además, a medida que navegas por el sitio,
+                              Ing. Eduardo Herrera Forero. <br /><br />
+                              Cuidamos tus datos personales y nos comprometemos a garantizar su
+                              confidencialidad y seguridad. <br /><br />
+                              <strong>Información personal que recopilamos</strong>: <br />
+                              Cuando visitas la página web del Ing. Eduardo Herrera Forero, recopilamos
+                              automáticamente cierta información sobre tu dispositivo, incluida información
+                              sobre tu navegador web, dirección IP, zona horaria y algunas de las cookies
+                              instaladas en tu dispositivo. Además, a medida que navegas por el sitio,
                               recopilamos información sobre las páginas web individuales o los productos que
                               ves, qué sitios web o términos de búsqueda que te remitieron al sitio y cómo
                               interactúas con él. Nos referimos a esta información recopilada automáticamente
                               como "Información del dispositivo". Además, podemos recopilar los datos
                               personales que nos proporcionas (incluidos, entre otros, nombre, apellido,
                               dirección, información de pago, etc.) durante el registro para poder cumplir con
-                              el acuerdo.<br /><br /><strong>¿Por qué procesamos tus datos?:</strong
-                              ><br />Nuestra máxima prioridad es la seguridad de los datos del cliente y, como
-                              tal, podemos procesar solo los datos mínimos del usuario, solo en la medida en
-                              que sea absolutamente necesario para mantener el sitio web. La información
+                              el acuerdo. <br /><br />
+                              <strong>¿Por qué procesamos tus datos?:</strong> <br />
+                              Nuestra máxima prioridad es la seguridad de los datos del cliente y, como tal,
+                              podemos procesar solo los datos mínimos del usuario, solo en la medida en que
+                              sea absolutamente necesario para mantener el sitio web. La información
                               recopilada automáticamente se utiliza solo para identificar casos potenciales de
                               abuso y establecer información estadística sobre el uso del sitio web. Esta
                               información estadística no se agrega de tal manera que identifique a ningún
-                              usuario en particular del sistema.<br /><br />Puedes visitar el sitio sin
-                              decirnos quién eres ni revelar ninguna información por la cual alguien pueda
-                              identificarte como una persona específica. Sin embargo, si deseas utilizar
-                              algunas de las funciones del sitio web, o deseas recibir nuestro boletín
-                              informativo o proporcionar otros detalles al completar un formulario, puedes
-                              proporcionarnos datos personales, como tu correo electrónico, nombre, apellido,
-                              ciudad de residencia, organización y número de teléfono. Puedes optar por no
-                              proporcionar tus datos personales, pero es posible que no puedas aprovechar
-                              algunas de las funciones del sitio web. Por ejemplo, no podrás recibir nuestro
-                              boletín ni contactarnos directamente desde el sitio web. Los usuarios que no
-                              estén seguros de qué información es obligatoria pueden ponerse en contacto con
-                              nosotros a través de ehfeduardo@gmail.com.<br /><br /><strong
-                                >Tus derechos</strong
-                              >:<br />
+                              usuario en particular del sistema. <br /><br />
+                              Puedes visitar el sitio sin decirnos quién eres ni revelar ninguna información
+                              por la cual alguien pueda identificarte como una persona específica. Sin
+                              embargo, si deseas utilizar algunas de las funciones del sitio web, o deseas
+                              recibir nuestro boletín informativo o proporcionar otros detalles al completar
+                              un formulario, puedes proporcionarnos datos personales, como tu correo
+                              electrónico, nombre, apellido, ciudad de residencia, organización y número de
+                              teléfono. Puedes optar por no proporcionar tus datos personales, pero es posible
+                              que no puedas aprovechar algunas de las funciones del sitio web. Por ejemplo, no
+                              podrás recibir nuestro boletín ni contactarnos directamente desde el sitio web.
+                              Los usuarios que no estén seguros de qué información es obligatoria pueden
+                              ponerse en contacto con nosotros a través de ehfeduardo@gmail.com. <br /><br />
+                              <strong>Tus derechos</strong>:<br />
                               <ul>
                                 <li>El derecho a ser informado.</li>
                                 <li>El derecho de acceso.</li>
@@ -959,30 +1112,33 @@
                                   de perfiles.
                                 </li>
                               </ul>
+
                               Si deseas ejercer estos derechos, comunícate con nosotros a través de la
-                              información de contacto a continuación.<br /><br />Además, destacamos que
-                              estamos procesando tu información para cumplir con los contratos que podríamos
-                              tener contigo (por ejemplo, si realizas un pedido a través del sitio), o de otra
-                              manera para seguir nuestros intereses comerciales legítimos enumerados
-                              anteriormente. Además, ten en cuenta que tu información puede transferirse fuera
-                              de Europa, incluidos Canadá y Estados Unidos.<br /><br /><strong
-                                >Enlaces a otros sitios web</strong
-                              >:<br />Nuestro sitio puede contener enlaces a otros sitios web que no son de
-                              nuestra propiedad ni están controlados por nosotros. Ten en cuenta que no somos
-                              responsables de dichos sitios web ni de las prácticas de privacidad de terceros.
-                              Te recomendamos que estés atento cuando abandones nuestro sitio web y leas las
-                              declaraciones de privacidad de cada sitio que pueda recopilar información
-                              personal.<br /><br /><strong>Seguridad de la información</strong
-                              >:<br />Aseguramos la información que proporcionas en servidores informáticos en
-                              un entorno controlado y seguro, protegido del acceso, uso o divulgación no
+                              información de contacto a continuación. <br /><br />
+                              Además, destacamos que estamos procesando tu información para cumplir con los
+                              contratos que podríamos tener contigo (por ejemplo, si realizas un pedido a
+                              través del sitio), o de otra manera para seguir nuestros intereses comerciales
+                              legítimos enumerados anteriormente. Además, ten en cuenta que tu información
+                              puede transferirse fuera de Europa, incluidos Canadá y Estados Unidos.
+                              <br /><br />
+                              <strong>Enlaces a otros sitios web</strong>: <br />Nuestro sitio puede contener
+                              enlaces a otros sitios web que no son de nuestra propiedad ni están controlados
+                              por nosotros. Ten en cuenta que no somos responsables de dichos sitios web ni de
+                              las prácticas de privacidad de terceros. Te recomendamos que estés atento cuando
+                              abandones nuestro sitio web y leas las declaraciones de privacidad de cada sitio
+                              que pueda recopilar información personal. <br /><br />
+                              <strong>Seguridad de la información</strong>:<br />
+                              Aseguramos la información que proporcionas en servidores informáticos en un
+                              entorno controlado y seguro, protegido del acceso, uso o divulgación no
                               autorizados. Mantenemos medidas de seguridad administrativas, técnicas y físicas
                               razonables para proteger contra el acceso no autorizado, el uso, la modificación
                               y la divulgación de datos personales bajo su control y custodia. Sin embargo, no
                               se puede garantizar la transmisión de datos a través de Internet o redes
-                              inalámbricas.<br /><br /><strong>Divulgación legal</strong>:<br />Divulgaremos
-                              cualquier información que recopilemos, usemos o recibamos si así lo requiere o
-                              lo permite la ley, como para cumplir con una citación o un proceso legal
-                              similar, y cuando creemos de buena fe que la divulgación es necesaria para
+                              inalámbricas. <br /><br />
+                              <strong>Divulgación legal</strong>:<br />
+                              Divulgaremos cualquier información que recopilemos, usemos o recibamos si así lo
+                              requiere o lo permite la ley, como para cumplir con una citación o un proceso
+                              legal similar, y cuando creemos de buena fe que la divulgación es necesaria para
                               proteger nuestros derechos, proteger tu seguridad o la seguridad de los demás,
                               investigar el fraude o responder a una solicitud del gobierno. Información de
                               contacto: Si deseas comunicarte con nosotros para comprender más sobre esta
@@ -1001,8 +1157,11 @@
                           </div>
                         </div>
                       </div>
+                      <!-- Fin política de privacidad -->
                     </div>
-                    <br /><input
+                    <br />
+                    <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> página gracias -->
+                    <input
                       type="hidden"
                       name="_subject"
                       value="Un nuevo amigo..." />
@@ -1010,13 +1169,17 @@
                       type="hidden"
                       name="_captcha"
                       value="false" />
+                    <!-- no captcha -->
+                    <!-- términos y condiciones -->
                     <div>
+                      <!-- Button trigger modal -->
                       <a
                         class="text-primary text-decoration-none"
                         data-bs-toggle="modal"
-                        data-bs-target="#condiciones"
-                        >Términos y condiciones</a
-                      >
+                        data-bs-target="#condiciones">
+                        Términos y condiciones
+                      </a>
+                      <!-- Modal -->
                       <div
                         class="modal fade"
                         id="condiciones"
@@ -1038,37 +1201,39 @@
                                 aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              ¡Bienvenido a la página web del Ing. Eduardo Herrera Forero!<br /><br />Estos
-                              términos y condiciones describen las reglas y regulaciones para el uso del sitio
-                              web del Ing. Eduardo Herrera Forero, ubicado en
-                              https://eduardoherreraf.github.io/.<br /><br />Al acceder a este sitio web,
-                              asumimos que aceptas estos términos y condiciones. No continúes usando la página
-                              web del Ing. Eduardo Herrera Forero si no estás de acuerdo con todos los
-                              términos y condiciones establecidos en esta página.<br /><br /><strong
-                                >Cookies</strong
-                              >:<br />El sitio web utiliza cookies para ayudar a personalizar tu experiencia
-                              en línea. Al acceder a Ing. Eduardo Herrera Forero, aceptaste utilizar las
-                              cookies necesarias.<br /><br />Una cookie es un archivo de texto que un servidor
-                              de páginas web coloca en tu disco duro. Las cookies no se pueden utilizar para
-                              ejecutar programas o enviar virus a tu computadora. Las cookies se te asignan de
-                              forma exclusiva y solo un servidor web en el dominio que emitió la cookie puede
-                              leerlas.<br /><br />Podemos utilizar cookies para recopilar, almacenar y
-                              rastrear información con fines estadísticos o de marketing para operar nuestro
-                              sitio web. Tienes la capacidad de aceptar o rechazar cookies opcionales. Hay
-                              algunas cookies obligatorias que son necesarias para el funcionamiento de
-                              nuestro sitio web. Estas cookies no requieren tu consentimiento ya que siempre
-                              funcionan. Ten en cuenta que al aceptar las cookies requeridas, también aceptas
-                              las cookies de terceros, que podrían usarse a través de servicios proporcionados
-                              por terceros si utilizas dichos servicios en nuestro sitio web, por ejemplo, una
-                              ventana de visualización de video proporcionada por terceros e integrada en
-                              nuestro sitio web.<br /><br /><strong>Licencia</strong>:<br />A menos que se
-                              indique lo contrario, Ing. Eduardo Herrera Forero y/o sus liciantes poseen los
-                              derechos de propiedad intelectual de todo el material en Ing. Eduardo Herrera
-                              Forero. Todos los derechos de propiedad intelectual son reservados. Puedes
-                              acceder desde Ing. Eduardo Herrera Forero para tu uso personal sujeto a las
-                              restricciones establecidas en estos términos y condiciones.<br /><br /><strong
-                                >No debes</strong
-                              >:<br />
+                              ¡Bienvenido a la página web del Ing. Eduardo Herrera Forero! <br /><br />
+                              Estos términos y condiciones describen las reglas y regulaciones para el uso del
+                              sitio web del Ing. Eduardo Herrera Forero, ubicado en
+                              https://eduardoherreraf.github.io/. <br /><br />
+                              Al acceder a este sitio web, asumimos que aceptas estos términos y condiciones.
+                              No continúes usando la página web del Ing. Eduardo Herrera Forero si no estás de
+                              acuerdo con todos los términos y condiciones establecidos en esta página.<br /><br />
+                              <strong>Cookies</strong>:<br />
+                              El sitio web utiliza cookies para ayudar a personalizar tu experiencia en línea.
+                              Al acceder a Ing. Eduardo Herrera Forero, aceptaste utilizar las cookies
+                              necesarias. <br /><br />
+                              Una cookie es un archivo de texto que un servidor de páginas web coloca en tu
+                              disco duro. Las cookies no se pueden utilizar para ejecutar programas o enviar
+                              virus a tu computadora. Las cookies se te asignan de forma exclusiva y solo un
+                              servidor web en el dominio que emitió la cookie puede leerlas. <br /><br />
+                              Podemos utilizar cookies para recopilar, almacenar y rastrear información con
+                              fines estadísticos o de marketing para operar nuestro sitio web. Tienes la
+                              capacidad de aceptar o rechazar cookies opcionales. Hay algunas cookies
+                              obligatorias que son necesarias para el funcionamiento de nuestro sitio web.
+                              Estas cookies no requieren tu consentimiento ya que siempre funcionan. Ten en
+                              cuenta que al aceptar las cookies requeridas, también aceptas las cookies de
+                              terceros, que podrían usarse a través de servicios proporcionados por terceros
+                              si utilizas dichos servicios en nuestro sitio web, por ejemplo, una ventana de
+                              visualización de video proporcionada por terceros e integrada en nuestro sitio
+                              web. <br /><br />
+                              <strong>Licencia</strong>: <br />A menos que se indique lo contrario, Ing.
+                              Eduardo Herrera Forero y/o sus liciantes poseen los derechos de propiedad
+                              intelectual de todo el material en Ing. Eduardo Herrera Forero. Todos los
+                              derechos de propiedad intelectual son reservados. Puedes acceder desde Ing.
+                              Eduardo Herrera Forero para tu uso personal sujeto a las restricciones
+                              establecidas en estos términos y condiciones. <br /><br />
+
+                              <strong>No debes</strong>: <br />
                               <ul>
                                 <li>Copiar o volver a publicar material de Ing. Eduardo Herrera Forero</li>
                                 <li>
@@ -1077,20 +1242,21 @@
                                 <li>Reproducir, duplicar o copiar material de Ing. Eduardo Herrera Forero</li>
                                 <li>Redistribuir contenido de Ing. Eduardo Herrera Forero</li>
                               </ul>
-                              Este acuerdo comenzará la fecha presente.<br /><br />Partes de este sitio web
-                              ofrecen a los usuarios la oportunidad de publicar e intercambiar opiniones e
-                              información en determinadas áreas. Ing. Eduardo Herrera Forero no filtra, edita,
-                              publica ni revisa los comentarios antes de su presencia en el sitio web. Los
-                              comentarios no reflejan los puntos de vista ni las opiniones de Ing. Eduardo
-                              Herrera Forero, sus agentes y/o afiliados. Los comentarios reflejan los puntos
-                              de vista y opiniones de la persona que publica. En la medida en que lo permitan
-                              las leyes aplicables, Ing. Eduardo Herrera Forero no será responsable de los
-                              comentarios ni de ninguna responsabilidad, daños o gastos causados ​​o sufridos
-                              como resultado de cualquier uso o publicación o apariencia de comentarios en
-                              este sitio web.<br /><br />Ing. Eduardo Herrera Forero se reserva el derecho de
-                              monitorear todos los comentarios y eliminar los que puedan considerarse
-                              inapropiados, ofensivos o que incumplan estos Términos y Condiciones.<br /><br />Garantizas
-                              y declaras que:<br />
+                              Este acuerdo comenzará la fecha presente. <br /><br />
+                              Partes de este sitio web ofrecen a los usuarios la oportunidad de publicar e
+                              intercambiar opiniones e información en determinadas áreas. Ing. Eduardo Herrera
+                              Forero no filtra, edita, publica ni revisa los comentarios antes de su presencia
+                              en el sitio web. Los comentarios no reflejan los puntos de vista ni las
+                              opiniones de Ing. Eduardo Herrera Forero, sus agentes y/o afiliados. Los
+                              comentarios reflejan los puntos de vista y opiniones de la persona que publica.
+                              En la medida en que lo permitan las leyes aplicables, Ing. Eduardo Herrera
+                              Forero no será responsable de los comentarios ni de ninguna responsabilidad,
+                              daños o gastos causados ​​o sufridos como resultado de cualquier uso o
+                              publicación o apariencia de comentarios en este sitio web. <br /><br />
+                              Ing. Eduardo Herrera Forero se reserva el derecho de monitorear todos los
+                              comentarios y eliminar los que puedan considerarse inapropiados, ofensivos o que
+                              incumplan estos Términos y Condiciones. <br /><br />
+                              Garantizas y declaras que: <br />
                               <ul>
                                 <li>
                                   Tienes derecho a publicar comentarios en nuestro sitio web y tienes todas
@@ -1114,9 +1280,10 @@
                               Por la presente, otorgas a Ing. Eduardo Herrera Forero una licencia no exclusiva
                               para usar, reproducir, editar y autorizar a otros a usar, reproducir y editar
                               cualquiera de tus comentarios en todas y cada una de las formas, formatos, o
-                              medios.<br /><br /><strong>Hipervínculos a nuestro contenido</strong>:<br />Las
-                              siguientes organizaciones pueden vincularse a nuestro sitio web sin aprobación
-                              previa por escrito:
+                              medios. <br /><br />
+                              <strong>Hipervínculos a nuestro contenido</strong>:<br />
+                              Las siguientes organizaciones pueden vincularse a nuestro sitio web sin
+                              aprobación previa por escrito:
                               <ul>
                                 <li>Agencias gubernamentales;</li>
                                 <li>Motores de búsqueda;</li>
@@ -1137,8 +1304,9 @@
                               o a otra información del sitio siempre que el enlace: (a) no sea engañoso de
                               ninguna manera; (b) no implique falsamente patrocinio, respaldo o aprobación de
                               la parte vinculante y sus productos y/o servicios; y (c) encaja en el contexto
-                              del sitio de la parte vinculante.<br /><br />Podemos considerar y aprobar otras
-                              solicitudes de enlaces de los siguientes tipos de organizaciones:
+                              del sitio de la parte vinculante. <br /><br />
+                              Podemos considerar y aprobar otras solicitudes de enlaces de los siguientes
+                              tipos de organizaciones:
                               <ul>
                                 <li>
                                   Fuentes de información de consumidores y/o empresas comúnmente conocidas;
@@ -1159,15 +1327,16 @@
                               página de inicio siempre que el enlace: (a) no sea engañoso de ninguna manera;
                               (b) no implique falsamente patrocinio, respaldo o aprobación de la parte
                               vinculante y sus productos o servicios; y (c) encaja en el contexto del sitio de
-                              la parte vinculante.<br /><br />Si eres una de las organizaciones enumeradas en
-                              el párrafo 2 y estás interesada en vincularte a nuestro sitio web, debes
-                              informarnos enviando un correo electrónico a Ing. Eduardo Herrera Forero.
-                              Incluye tu nombre, el nombre de tu organización, la información de contacto, así
-                              como la URL de tu sitio, una lista de las URL desde las que tienes la intención
-                              de vincular a nuestro sitio web y una lista de las URL de nuestro sitio a las
-                              que te gustaría acceder. Espera 2-3 semanas para recibir una respuesta.<br /><br />Las
-                              organizaciones aprobadas pueden hacer hipervínculos a nuestro sitio web de la
-                              siguiente manera:
+                              la parte vinculante. <br /><br />
+                              Si eres una de las organizaciones enumeradas en el párrafo 2 y estás interesada
+                              en vincularte a nuestro sitio web, debes informarnos enviando un correo
+                              electrónico a Ing. Eduardo Herrera Forero. Incluye tu nombre, el nombre de tu
+                              organización, la información de contacto, así como la URL de tu sitio, una lista
+                              de las URL desde las que tienes la intención de vincular a nuestro sitio web y
+                              una lista de las URL de nuestro sitio a las que te gustaría acceder. Espera 2-3
+                              semanas para recibir una respuesta. <br /><br />
+                              Las organizaciones aprobadas pueden hacer hipervínculos a nuestro sitio web de
+                              la siguiente manera:
                               <ul>
                                 <li>Mediante el uso de nuestro nombre corporativo; o</li>
                                 <li>
@@ -1181,30 +1350,34 @@
                                 </li>
                               </ul>
                               No se permitirá el uso del logotipo de Ing. Eduardo Herrera Forero u otro
-                              material gráfico para vincular sin un acuerdo de licencia de marca comercial.<br /><br /><strong
-                                >Responsabilidad del contenido</strong
-                              >:<br />No seremos responsables de ningún contenido que aparezca en tu sitio
-                              web. Aceptas protegernos y defendernos contra todas las reclamaciones que se
+                              material gráfico para vincular sin un acuerdo de licencia de marca comercial.
+                              <br /><br />
+                              <strong>Responsabilidad del contenido</strong>:<br />
+                              No seremos responsables de ningún contenido que aparezca en tu sitio web.
+                              Aceptas protegernos y defendernos contra todas las reclamaciones que se
                               presenten en tu sitio web. Ningún enlace(s) debe aparecer en ningún sitio web
                               que pueda interpretarse como difamatorio, obsceno o criminal, o que infrinja, de
                               otra manera viole o defienda la infracción u otra violación de los derechos de
-                              terceros.<br /><br /><strong>Reserva de derechos</strong>:<br />Nos reservamos
-                              el derecho de solicitar que elimines todos los enlaces o cualquier enlace en
-                              particular a nuestro sitio web. Apruebas eliminar de inmediato todos los enlaces
-                              a nuestro sitio web cuando se solicite. También nos reservamos el derecho de
-                              modificar estos términos y condiciones y su política de enlaces en cualquier
-                              momento. Al vincular continuamente a nuestro sitio web, aceptas estar vinculado
-                              y seguir estos términos y condiciones de vinculación.<br /><br /><strong
-                                >Eliminación de enlaces de nuestro sitio web</strong
-                              >:<br />Si encuentras algún enlace en nuestro sitio que sea ofensivo por
-                              cualquier motivo, puedes contactarnos e informarnos en cualquier momento.
-                              Consideraremos las solicitudes para eliminar enlaces, pero no estamos obligados
-                              a hacerlo ni a responder directamente.<br /><br />No nos aseguramos de que la
-                              información de este sitio web sea correcta. No garantizamos su integridad o
-                              precisión, ni prometemos asegurarnos de que el sitio web permanezca disponible o
-                              que el material en el sitio se mantenga actualizado.<br /><br /><strong
-                                >Exención de responsabilidad</strong
-                              >:<br />En la medida máxima permitida por la ley aplicable, excluimos todas las
+                              terceros. <br /><br />
+                              <strong>Reserva de derechos</strong>: <br />
+                              Nos reservamos el derecho de solicitar que elimines todos los enlaces o
+                              cualquier enlace en particular a nuestro sitio web. Apruebas eliminar de
+                              inmediato todos los enlaces a nuestro sitio web cuando se solicite. También nos
+                              reservamos el derecho de modificar estos términos y condiciones y su política de
+                              enlaces en cualquier momento. Al vincular continuamente a nuestro sitio web,
+                              aceptas estar vinculado y seguir estos términos y condiciones de vinculación.
+                              <br /><br />
+                              <strong>Eliminación de enlaces de nuestro sitio web</strong>: <br />
+                              Si encuentras algún enlace en nuestro sitio que sea ofensivo por cualquier
+                              motivo, puedes contactarnos e informarnos en cualquier momento. Consideraremos
+                              las solicitudes para eliminar enlaces, pero no estamos obligados a hacerlo ni a
+                              responder directamente. <br /><br />
+                              No nos aseguramos de que la información de este sitio web sea correcta. No
+                              garantizamos su integridad o precisión, ni prometemos asegurarnos de que el
+                              sitio web permanezca disponible o que el material en el sitio se mantenga
+                              actualizado. <br /><br />
+                              <strong>Exención de responsabilidad</strong>:<br />
+                              En la medida máxima permitida por la ley aplicable, excluimos todas las
                               representaciones, garantías y condiciones relacionadas con nuestro sitio web y
                               el uso de este. Nada en este descargo de responsabilidad:
                               <ul>
@@ -1229,10 +1402,11 @@
                               y en otras partes de este descargo de responsabilidad: (a) están sujetas al
                               párrafo anterior; y (b) regirá todas las responsabilidades que surjan en virtud
                               de la exención de responsabilidad, incluidas las responsabilidades que surjan en
-                              el contrato, en agravio y por incumplimiento de la obligación legal.<br /><br />Siempre
-                              que el sitio web y la información y los servicios en el sitio se proporcionen de
-                              forma gratuita, no seremos responsables de ninguna pérdida o daño de cualquier
-                              naturaleza.
+                              el contrato, en agravio y por incumplimiento de la obligación legal.
+                              <br /><br />
+                              Siempre que el sitio web y la información y los servicios en el sitio se
+                              proporcionen de forma gratuita, no seremos responsables de ninguna pérdida o
+                              daño de cualquier naturaleza.
                             </div>
                             <div class="modal-footer">
                               <button
@@ -1245,23 +1419,31 @@
                           </div>
                         </div>
                       </div>
+                      <!-- Fin política de privacidad -->
                     </div>
+                    <!-- Fin términos y condiciones -->
                   </div>
                 </div>
               </form>
             </div>
           </article>
+          <!-- -------------------------------- fin contacto -------------------------------- -->
         </section>
+        <!-- -------------------------------- fin principal -------------------------------- -->
       </main>
+      <!-- -------------------------------- barra lateral -------------------------------- -->
       <aside class="col-lg-4 pt-5">
         <h1 class="text_saira fw-bold">PUBLICACIONES</h1>
         <ul class="list-unstyled">
           <li><a href="#vite">INSTALACIÓN DE BOOTSTRAP V5.3 CON EL MANEJADOR DE PAQUETES NPM y VITE</a></li>
         </ul>
       </aside>
+      <!-- -------------------------------- fin barra lateral -------------------------------- -->
     </div>
+    <!-- -------------------------------- pie de pagina -------------------------------- -->
     <footer class="row container-fluid border-1 border-top row col">
       <div class="row">
+        <!-- contacto -->
         <div class="col-lg-4 d-flex flex-column align-items-center">
           <div>
             <div class="text-center fs-2">Contacto</div>
@@ -1295,7 +1477,7 @@
                   <path
                     d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
                 </svg>
-                <span class="ms-3"><a href="mailto:ehfeduardo@gmail.com">ehfeduardo@gmail.com</a></span>
+                <span class="ms-3"> <a href="mailto:ehfeduardo@gmail.com">ehfeduardo@gmail.com</a></span>
               </div>
             </div>
             <div class="d-flex flex-row m-3 align-text-top">
@@ -1312,10 +1494,11 @@
                   <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                 </svg>
               </div>
-              <span class="ms-3">Bogotá D. C. - Colombia</span>
+              <span class="ms-3"> Bogotá D. C. - Colombia</span>
             </div>
           </div>
         </div>
+        <!-- mapa del sitio -->
         <div class="col-lg-4 d-flex flex-column align-items-center">
           <div>
             <div class="text-center fs-2">Mapa del Sitio</div>
@@ -1335,6 +1518,7 @@
             </ul>
           </div>
         </div>
+        <!-- redes sociales -->
         <div class="col-lg-4 d-flex align-items-center flex-column">
           <div class="text-center fs-2">Redes Sociales</div>
           <div class="d-flex m-3 justify-content-between flex-column">
@@ -1352,13 +1536,15 @@
                 viewBox="0 0 16 16">
                 <path
                   d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-              </svg> </a
-            ><a
+              </svg>
+            </a>
+
+            <a
               href="https://github.com/eduardoherreraf"
               target="_blank"
               rel="noopener noreferrer"
-              class="mb-1"
-              ><svg
+              class="mb-1">
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
                 height="32"
@@ -1367,13 +1553,15 @@
                 viewBox="0 0 16 16">
                 <path
                   d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-              </svg> </a
-            ><a
+              </svg>
+            </a>
+
+            <a
               href="https://www.facebook.com/eduardoherreraforero/"
               target="_blank"
               rel="noopener noreferrer"
-              class="mb-1"
-              ><svg
+              class="mb-1">
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
                 height="32"
@@ -1382,8 +1570,10 @@
                 viewBox="0 0 16 16">
                 <path
                   d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-              </svg> </a
-            ><a
+              </svg>
+            </a>
+
+            <a
               href="https://twitter.com/ehfeduardo/"
               target="_blank"
               rel="noopener noreferrer"
@@ -1397,13 +1587,15 @@
                 viewBox="0 0 16 16">
                 <path
                   d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-              </svg> </a
-            ><a
+              </svg>
+            </a>
+
+            <a
               href="http://wa.me/573006145402?text=Buen día..."
               target="_blank"
               rel="noopener noreferrer"
-              class="mb-1"
-              ><svg
+              class="mb-1">
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
                 height="32"
@@ -1411,8 +1603,9 @@
                 class="bi bi-whatsapp"
                 viewBox="0 0 16 16">
                 <path
-                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" /></svg
-            ></a>
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+              </svg>
+            </a>
           </div>
         </div>
       </div>
@@ -1432,6 +1625,7 @@
         <span class="ms-3">All Rights Reserved 2023</span>
       </div>
     </footer>
+    <!-- button to top -->
     <button
       onclick="topFunction()"
       id="myBtnScroll"
@@ -1451,6 +1645,7 @@
           d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
       </svg>
     </button>
+    <!-- Fin button to top -->
   </body>
   <script>
     // pagina ha cargado totalmente
@@ -1466,15 +1661,17 @@
     };
     const temaOscuro = () => {
       document.querySelector('body').setAttribute('data-bs-theme', 'dark');
-      document.querySelector('#dl-icon').setAttribute('src', './assets/sun-86eb3c88.svg');
-      document.querySelector('#dl-icon').setAttribute('alt', 'Tema Diurno');
+      document
+        .querySelector('#dl-icon')
+        .setAttribute('class', 'btn text-center d-flex bg-body-tertiary text-light');
       localStorage.setItem('theme', 'dark');
     };
 
     const temaClaro = () => {
       document.querySelector('body').setAttribute('data-bs-theme', 'light');
-      document.querySelector('#dl-icon').setAttribute('src', './assets/moon.svg');
-      document.querySelector('#dl-icon').setAttribute('alt', 'Tema Nocturno');
+      document
+        .querySelector('#dl-icon')
+        .setAttribute('class', 'btn text-center d-flex bg-body-tertiary text-dark');
       localStorage.setItem('theme', 'light');
     };
   </script>
